@@ -1,7 +1,5 @@
 # Implied Volatility & Smile Interpolation
 
-[**Open the notebook →**](./Implied Volatility Interpolation.ipynb)
-
 A Python project implementing numerical methods to recover implied volatility from European call prices and reconstruct a synthetic volatility smile.
 
 ## Overview
@@ -49,7 +47,9 @@ $$
 
 $$
 \sigma_{n+1}
+$$
 =
+$$
 \sigma_n-
 \frac{C(S,K,T,r,\sigma_n)-C_{\mathrm{market}}}
 {\mathrm{Vega}(\sigma_n)}
@@ -96,7 +96,9 @@ The reference smile is:
 
 $$
 \sigma_{\mathrm{ref}}(K)
+$$
 =
+$$
 0.20+0.8\left(\frac{K}{S}-1\right)^2.
 $$
 
@@ -121,14 +123,3 @@ This project validates the methods on synthetic data. It does not demonstrate in
 
 Newton's method is sensitive to its starting value and can fail if vega is too small or an iteration produces a nonpositive volatility.
 
-## How to Run
-
-The notebook uses Python, NumPy, SciPy and Matplotlib.
-
-Install the dependencies:
-
-```bash
-pip install numpy scipy matplotlib jupyter
-```
-
-Open the notebook in Jupyter or VS Code and run all cells in order.
