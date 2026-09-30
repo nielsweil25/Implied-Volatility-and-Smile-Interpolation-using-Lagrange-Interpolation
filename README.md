@@ -1,6 +1,6 @@
 # Implied Volatility & Smile Interpolation
 
-[**Open the notebook →**](./ImpliedVolatility.ipynb)
+[**Open the notebook →**](./Implied Volatility Interpolation.ipynb)
 
 A Python project implementing numerical methods to recover implied volatility from European call prices and reconstruct a synthetic volatility smile.
 
