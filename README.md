@@ -48,9 +48,7 @@ $$
 
 $$
 \sigma_{n+1}
-
 =
-
 \sigma_n-
 \frac{C(S,K,T,r,\sigma_n)-C_{\mathrm{market}}}
 {\mathrm{Vega}(\sigma_n)}
@@ -97,9 +95,7 @@ The reference smile is:
 
 $$
 \sigma_{\mathrm{ref}}(K)
-
 =
-
 0.20+0.8\left(\frac{K}{S}-1\right)^2.
 $$
 
